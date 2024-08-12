@@ -1,0 +1,79 @@
+<div id="bodymain">
+<div id="border">
+    <button id="page1" onclick="changePage1()">Timesheets</button>
+    <button id="page2" onclick="changePage2()">Table</button>
+    <div id ="head">
+    <h1><u>Agency Worker Timesheets</u></h1>
+    <div id="main">
+        <div id="container">
+            <h2>Add Timesheet</h2>
+            <div id="empformspace">
+            <form id="empform" onsubmit="submitUser(event)">
+                <label for="fname">Name:</label><br>
+                <label for="fname">first:</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="lname">Last:</label>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="location">Location:</label><br>
+                <input type="text" id="location" name="location" required><br>
+                <label for="vendor">Vendor:</label><br>
+                <input type="text" id="vendor" name="vendor" required><br>
+                <label for="company">Company:</label><br>
+                <select id="company" name="company">
+                    <option value="marshmackey">Marsh Mackey</option>
+                    <option value="cpl">CPL</option>
+                    <option value="servisource health">Servisource Health</option>
+                    <option value="servisource recruitment">Servisource Recruitment</option>
+                    <option value="staffline">Staffline</option>
+                    <option value="ttm">TTM</option>
+                </select><br>
+                <label for="invoice">Invoice Number:</label><br>
+                <input type="text" id="invoice" name="invoice" required><br>
+                <label for="date">Date:</label><br>
+                <label for="datefrom">From:</label><input type="date" id="datefrom" name="datefrom" required><label for="dateto">To:</label><input type="date" id="dateto" name="dateto" required><br>
+                <label for="gl">GL Code:</label><br>
+                <input type="text" id="gl" name="gl" required><br>
+                <label for="costcentre">Cost Centre:</label><br>
+                <input type="text" id="costcentre" name="costcentre" required><br>
+                <label for="amount">Amount:</label><br>
+                <input type="text" id="amount" name="amount" required><br>
+                <label for="hours">Hours Worked:</label><br>
+                <input type="text" id="hours" name="hours" required><br>
+                <label for="approver">Approved by:</label><br>
+                <input type="text" id="approver" name="approver" required><br>
+                <input type="submit" value="Submit">
+                <br><br>
+            </form>
+            </div>
+
+            <div id="deleteuserform">
+            <h2 id="deleteheader">Delete timesheet</h2>
+            <form id="deleteform" onsubmit="deleteInvoice(event)">
+              <label for="deleteinv">Invoice Number</label><br>
+              <input type="text" id="deleteinv" name="deleteinv"><br>
+              <input type="submit" value="Submit">
+              <br><br>
+            </form>
+            </div>
+
+
+            <br>
+
+            <h2>View timesheets</h2>
+
+            <div id = allUserData>
+                <button id="getUsers" onclick="getAllUsers()">Get Users</button>
+                <br>
+                <br>
+                
+                <div id="tabarea">
+
+                </div>    
+            </div>
+
+        </div>
+</div>
+</div>
+</div>
+</div>
+</div>

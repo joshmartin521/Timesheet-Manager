@@ -1,0 +1,88 @@
+#empform, #deleteform{
+    padding-left: 15%;
+    padding-top: 1%;
+    border: 2px, solid;
+    background-color: antiquewhite;
+}
+
+#allUserData,#tabarea2{
+    border: 2px, solid;
+    background-color: antiquewhite;
+}
+
+#emptab, #highlight{
+    text-align: center;
+    margin-left: 10%;
+}
+
+#deleteuserform {
+    transform: translateX(20%);
+    margin-right: 16.65%;
+} 
+
+#empformspace, #allUserData{
+    margin-right: 20%;
+}
+
+#border
+{
+    background-color: aliceblue;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#main{
+    background-color: rgb(255, 247, 236);
+    padding-bottom: 4%;
+}
+
+table,th,td{
+    border: 1px, solid;
+}
+
+tr:hover{
+    background-color: aliceblue;
+}
+
+th{
+    background-color: azure;
+}
+
+#head{
+    background-color: rgb(255, 211, 211);
+    padding-top: 2%;
+}
+
+h1{
+    padding-left: 2%;
+}
+h2{
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid black; /* Adjust border width and color as needed */
+    text-align: center;
+    background-color: rgb(250, 219, 220);
+    display: inline-block; /* Ensures border wraps only around the text */
+}
+
+#empform > input{
+    padding-right: 25%;
+}
+
+#page1, #page2{
+        background-color: rgb(255, 211, 211);
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+#page1:hover, #page2:hover{
+    background-color: rgb(214, 179, 179);
+}
+
+
+
