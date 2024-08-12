@@ -108,7 +108,7 @@ app.get("/employee", async(req,res) => {
 
     content += `</table>
                 <button id="highlight" onClick="highlightUser()">Highlight</button>
-                <button id="highlight" onClick="deleteRowFromTable()">Delete Timesheet</button>`;
+                <button id="delete" onClick="deleteRowFromTable()">Delete Timesheet</button>`;
     res.send(content);
 } catch (error) {
     console.error(error);
